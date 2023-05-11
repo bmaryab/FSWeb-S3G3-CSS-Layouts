@@ -1,0 +1,104 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #ffbcc5;
+    color: black;
+    padding: 20px 0 90px 0;
+}
+
+.başlık {
+    margin-left: 15%;
+}
+
+nav {
+    margin-left: 15%;
+}
+
+.btn {
+    background-color: #333;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    color: #f2f2f2;
+    font-size: 17px;
+    transition-duration: 0.4s;
+}
+
+nav a {
+    float: left;
+}
+
+.btn:hover {
+    background-color: #00b16b;
+    color: #f2f2f2;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);  
+}
+
+.proje{
+    padding: 20px 40px;
+}
+
+.container {
+    margin: 20px 15%;
+}
+
+
+.description {
+    display: flex;
+    align-items: flex-end;
+}
+
+.texts {
+    margin-left: 3%;
+    max-width: 50%;
+}
+
+.group1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.group2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.project {
+    text-align: center;
+}
+
+.project a {
+    text-decoration: none;
+    color:#333
+}
+
+footer {
+    background-color: #333;
+    padding: 40px 0;
+    margin-top: 30px;
+}
+
+.footer-text {
+    text-align: center;
+    color:#f2f2f2;
+}
+
+.foot {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+.footer-text p {
+    margin: 0 auto;
+}
+
+.project a h3 {
+    margin: 5px 0 0 0;
+}
